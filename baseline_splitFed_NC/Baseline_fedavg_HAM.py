@@ -34,8 +34,8 @@ SHUFFLE = False
 NUM_CLASSES = 5
 PIN_MEMORY = False
 
-dataDir = "C:/Users/csj5/Projects/Data/HAM10000/HAM10000/datafed/"
-parentF = "C:/Users/csj5/Projects/Splitfed_HAM/"
+dataDir = LOCATION_TO_DATA
+parentF = LOCATION_TO_PARENT_FOLDER
 # client 1
 TRAIN_IMG_DIR_C1 = dataDir + "./client1/train_imgs/"
 TRAIN_MASK_DIR_C1 = dataDir + "./client1/train_masks/"
