@@ -1,6 +1,6 @@
 # SplitFedZip
 
-This repository is the Python implementation of the paper "SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning".
+This repository is the Python implementation of the paper "_SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning_".
 
 Table of Contents
 
