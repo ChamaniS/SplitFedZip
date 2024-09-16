@@ -25,8 +25,10 @@ SplitFedZip was tested on medical image segmentation datasets, which achieved si
 # Installation
 Clone the repository:
 
-git clone https://anonymous.4open.science/r/SplitFedZip.git
+git clone https://anonymous.4open.science/r/SplitFedZip.git 
+
 cd SplitFedZip
+
 
 Install required packages:
 
