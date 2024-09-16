@@ -1,5 +1,7 @@
 # SplitFedZip
 
+This repository is the Python implementation of the paper "SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning".
+
 Table of Contents
 
 1. Overview
@@ -15,7 +17,6 @@ SplitFedZip is the first rate-distortion based compression scheme desgined for s
 SplitFedZip was tested on medical image segmentation datasets, which achieved significant communication bitrate reduction with minimal impact on global model accuracy.
 
 # Features
-
 1. Learned Compression: SplitFedZip uses advanced codecs to compress feature maps and gradients at the split points.
 2. Efficient Communication: It decreases communication overhead, hence addressing bandwidth and latency challenges common in federated contexts.
 3. Flexible Architecture: Combines the benefits of Federated Learning (FL) and Split Learning (SL), balancing computational loads between the client and server.
@@ -47,6 +48,17 @@ To train the model on medical image segmentation data:
 
 Use the runner.sh to start training. 
 
+# Contact
+Please contact the corresponding authors of the paper.
 
+# Citation
+If you find this project useful in your research, please cite our paper:
+
+@article{Anonymous_2024,
+  title={SplitFedZip: Efficient Communication in Split-Federated Learning via Learned Compression},
+  author={Anonymous},
+  journal={Journal Name},
+  year={2024}
+}
 
 
