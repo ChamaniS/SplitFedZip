@@ -6,4 +6,4 @@
 #SBATCH --mem=32G              # Request the full memory of the node
 #SBATCH --time=80:00:00
 
-python runner1main.py
+python cheng_Blasto_F.py   #Change the file name accordingly
