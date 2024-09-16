@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 
 # Usage
-SplitFedZip is designed with 4 compression schemes as (_NC scheme_) (No Compression), (_F scheme_) (Compressing only features), (_G scheme_)  (Compressing only gradients) and (_FG scheme_) (Compressing both features and gradients). The relevant codes for these 4 schemes are included in the /textit{baseline_splitFed_NC}, /textit{F scheme}, /textit{G scheme} and the /textit{FG scheme}.
+SplitFedZip is designed with 4 compression schemes as (_NC scheme_) (No Compression), (_F scheme_) (Compressing only features), (_G scheme_) (Compressing only gradients) and (_FG scheme_) (Compressing both features and gradients). The relevant codes for these 4 schemes are included in the (_baseline_splitFed_NC_), (_F scheme_), (_G scheme_) and the (_FG scheme_).
 
 To train the model on medical image segmentation data:
 
