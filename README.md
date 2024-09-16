@@ -62,5 +62,3 @@ If you find this project useful in your research, please cite our paper:
   journal={Journal Name},
   year={2024}
 }
-
-
