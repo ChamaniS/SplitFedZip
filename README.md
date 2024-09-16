@@ -46,7 +46,7 @@ To train the model on medical image segmentation data:
 - Add the location to the output log at: output_file = LOCATION_TO_OUTPUT_FILE
 - Change the value of the lagrangian multiplier at: lambda1 = _value_
 
-Use the runner.sh to start training. 
+Use the _runner.sh_ to start training. 
 
 # Contact
 Please contact the corresponding authors of the paper.
