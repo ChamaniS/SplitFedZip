@@ -54,6 +54,7 @@ Please contact the corresponding authors of the paper.
 # Citation
 If you find this project useful in your research, please cite our paper:
 
+```bibtex
 @article{Anonymous_2024,
   title={SplitFedZip: Efficient Communication in Split-Federated Learning via Learned Compression},
   author={Anonymous},
