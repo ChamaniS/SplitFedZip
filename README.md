@@ -7,9 +7,9 @@ Table of Contents
 1. Overview
 2. Features
 3. Installation
-4. Configuration
-5. Usage
-6. Contact
+4. Usage
+5. Contact
+6. Citation
 
 # Overview
 SplitFedZip is the first rate-distortion based compression scheme desgined for splitFed networks. It aims to improce the communication efficiency in SplitFed Learning. This approach addresses key communication challenges like high latency, bandwidth constraints, and synchronization overheads in SplitFed learning while maintaining or enhancing model performance.
@@ -25,14 +25,14 @@ SplitFedZip was tested on medical image segmentation datasets, which achieved si
 
 # Installation
 Clone the repository:
-
+```bash
 git clone https://anonymous.4open.science/r/SplitFedZip.git 
 
 cd SplitFedZip
 
 
 Install required packages:
-
+```bash
 pip install -r requirements.txt
 
 
