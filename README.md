@@ -4,12 +4,12 @@ This repository is the Python implementation of the paper "_SplitFedZIP: Learned
 
 Table of Contents
 
-1. Overview
-2. Features
-3. Installation
-4. Usage
-5. Contact
-6. Citation
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contact](#contact)
+6. [Citation](#citation)
 
 # Overview
 SplitFedZip is the first rate-distortion based compression scheme desgined for splitFed networks. It aims to improce the communication efficiency in SplitFed Learning. This approach addresses key communication challenges like high latency, bandwidth constraints, and synchronization overheads in SplitFed learning while maintaining or enhancing model performance.
