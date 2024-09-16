@@ -39,7 +39,11 @@ pip install -r requirements.txt
 SplitFedZip is designed with 4 compression schemes as _NC scheme_ (No Compression), _F scheme_ (Compressing only features), _G scheme_ (Compressing only gradients) and _FG scheme_ (Compressing both features and gradients). The relevant codes for these 4 schemes are included in the _baseline_splitFed_NC_, _F scheme_, _G scheme_ and the _FG scheme_.
 
 To train the model on medical image segmentation data:
-
+- Go to the folder where you want to perform the compression.
+- Add the location to data at: dataDir = LOCATION_TO_DATA
+- Add the location for saving checkpoints, validated images, tested images, and output curves at: compressedF = LOCATION_TO_COMPRESSED_DATA_FOLDER
+- Add the location to the output log at: output_file = LOCATION_TO_OUTPUT_FILE
+- Change the value of the lagrangian multiplier at: lambda1 = _value_
 
 Use the runner.sh to start training. 
 
