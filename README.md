@@ -8,13 +8,14 @@ Table of Contents
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Contact](#contact)
-6. [Citation](#citation)
+5. [Datasets](#datasets)
+6. [Contact](#contact)
+7. [Citation](#citation)
 
 # Overview
 SplitFedZip is the first rate-distortion based compression scheme desgined for splitFed networks. It aims to improce the communication efficiency in SplitFed Learning. This approach addresses key communication challenges like high latency, bandwidth constraints, and synchronization overheads in SplitFed learning while maintaining or enhancing model performance.
 
-SplitFedZip was tested on medical image segmentation datasets, which achieved significant communication bitrate reduction with minimal impact on global model accuracy.
+SplitFedZip was tested on two medical image segmentation datasets, which achieved significant communication bitrate reduction with minimal impact on global model accuracy.
 
 # Features
 1. Learned Compression: SplitFedZip uses advanced codecs to compress feature maps and gradients at the split points.
@@ -48,6 +49,11 @@ To train the model on medical image segmentation data:
 Use the _runner.sh_ to start training. 
 
 To generate the Figures in the paper, please go to the _Plotting_ folder.
+
+# Datasets
+Following are the two datasets used in the experiments.
+1. Blastocyst Dataset
+2. HAM10K Dataset
 
 # Contact
 Please contact the corresponding authors of the paper.
