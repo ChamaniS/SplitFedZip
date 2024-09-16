@@ -47,6 +47,8 @@ To train the model on medical image segmentation data:
 
 Use the _runner.sh_ to start training. 
 
+In order to generate the Figures in the paper, please go to the _Plotting_ folder.
+
 # Contact
 Please contact the corresponding authors of the paper.
 
