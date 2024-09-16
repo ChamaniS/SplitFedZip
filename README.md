@@ -27,7 +27,7 @@ SplitFedZip was tested on medical image segmentation datasets, which achieved si
 Clone the repository:
 ```bash
 git clone https://anonymous.4open.science/r/SplitFedZip.git 
-```bash
+bash```
 cd SplitFedZip
 
 
