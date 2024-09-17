@@ -62,7 +62,7 @@ Following are the two datasets used in the experiments.
 2. HAM10K Dataset
 
 # Contact
-Please contact the corresponding authors of the paper.
+Please contact the corresponding authors of the paper for any inquiries regarding this project.
 
 # Citation
 If you find this project useful in your research, please cite our paper:
