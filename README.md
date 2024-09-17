@@ -16,7 +16,7 @@ Table of Contents
 # Overview
 SplitFedZip is the first rate-distortion based compression scheme desgined for splitFed networks. It aims to improve the communication efficiency in SplitFed Learning. This approach addresses key communication challenges like high latency, bandwidth constraints, and synchronization overheads in SplitFed learning while maintaining or enhancing global model performance.
 
-The first application of optmizing the communication accuracy trade-off in FL using rate distortion theory was introduced in [[4](#reference-4)]. Since then, there has been a notable lack of evidence in the application ofrate-distortion-inspired compression in SL and splitFed.
+The first application of optmizing the communication accuracy trade-off in FL using rate distortion theory was introduced in [[4](#reference-4)]. Since then, there has been a notable lack of evidence in the application of rate-distortion-inspired compression in SL and splitFed.
 
 SplitFedZip was tested on two medical image segmentation datasets (Blastocyst dataset and the HAM10K dataset), which achieved significant communication bitrate reduction with minimal impact on global model accuracy. 
 SplitFedZip is designed with 4 compression schemes as _NC scheme_ (No Compression), _F scheme_ (Compressing only features), _G scheme_ (Compressing only gradients) and _FG scheme_ (Compressing both features and gradients). The relevant codes for these 4 schemes are included in the _baseline_splitFed_NC_, _F scheme_, _G scheme_ and the _FG scheme_. We used two types of codecs: A Custom AE [[5](#reference-5)], and a Cheng_2020 model [[6](#reference-6)]. 
