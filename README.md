@@ -55,7 +55,7 @@ pip install -r requirements.txt
 # Usage
 
 To train the model on medical image segmentation data:
-- Go to the folder where you want to perform the compression.
+- Go to the folder where you want to perform the compression. The .py files are renamed as the codec name with the dataset name.  
 - Add the location to data at: dataDir = LOCATION_TO_DATA.
 - Add the location for saving checkpoints, validated images, tested images, and output curves at: compressedF = LOCATION_TO_COMPRESSED_DATA_FOLDER.
 - Add the location to the output log at: output_file = LOCATION_TO_OUTPUT_FILE.
