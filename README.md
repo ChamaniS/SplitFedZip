@@ -12,6 +12,7 @@ Table of Contents
 5. [Datasets](#datasets)
 6. [Contact](#contact)
 7. [Citation](#citation)
+8. [References](#references)
 
 # Overview
 SplitFedZip is the first rate-distortion based compression scheme desgined for splitFed networks. It aims to improve the communication efficiency in SplitFed Learning. This approach addresses key communication challenges like high latency, bandwidth constraints, and synchronization overheads in SplitFed learning while maintaining or enhancing global model performance.
