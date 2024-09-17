@@ -1,6 +1,6 @@
 # SplitFedZip
 
-Split-Federated(splitFed) learning [1] is an innovative approach that combines the strengths of federated learning (FL)[2] and split learning (SL)[3].
+Split-Federated(splitFed) learning [1](#reference-1) is an innovative approach that combines the strengths of federated learning (FL)[2](#reference-2) and split learning (SL)[3](#reference-3).
 This repository is the Python implementation of the paper "_SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning_". 
 
 Table of Contents
@@ -85,10 +85,16 @@ If you find this project useful in your research, please cite our paper:
 
 ## References
 
+<a id="reference-1"></a>
 [1]. Thapa, Chandra, Pathum Chamikara Mahawaga Arachchige, Seyit Camtepe, and Lichao Sun. "Splitfed: When federated learning meets split learning." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 36, no. 8, pp. 8485-8493. 2022.
+<a id="reference-2"></a>
 [2]. McMahan, Brendan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera y Arcas. "Communication-efficient learning of deep networks from decentralized data." In Artificial intelligence and statistics, pp. 1273-1282. PMLR, 2017.
+<a id="reference-3"></a>
 [3]. Gupta, Otkrist, and Ramesh Raskar. "Distributed learning of deep neural network over multiple agents." Journal of Network and Computer Applications 116 (2018): 1-8.
+<a id="reference-4"></a>
 [4]. Mitchell, Nicole, Johannes Ballé, Zachary Charles, and Jakub Konečný. "Optimizing the communication-accuracy trade-off in federated learning with rate-distortion theory." arXiv preprint arXiv:2201.02664 (2022).
+<a id="reference-5"></a>
 [5]. Cheng, Zhengxue, Heming Sun, Masaru Takeuchi, and Jiro Katto. "Learned image compression with discretized gaussian mixture likelihoods and attention modules." In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 7939-7948. 2020.
+<a id="reference-6"></a>
 [6]. Ballé, Johannes, David Minnen, Saurabh Singh, Sung Jin Hwang, and Nick Johnston. "Variational image compression with a scale hyperprior." In International Conference on Learning Representations. 2018.
 
