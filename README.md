@@ -36,7 +36,11 @@ Figure 1 and Figure 2 shows the R-D curves for the F and FG schemes with the Bla
 # Installation
 Clone the repository:
 ```
-git clone https://anonymous.4open.science/r/SplitFedZip.git 
+git clone https://anonymous.4open.science/r/SplitFedZip.git
+```
+
+Navigate to SplitFedZip folder:
+```
 cd SplitFedZip
 ```
 
@@ -80,8 +84,9 @@ If you find this project useful in your research, please cite our paper:
 
 ## References
 
-[1] Mitchell, Nicole, Johannes Ballé, Zachary Charles, and Jakub Konečný. "Optimizing the communication-accuracy trade-off in federated learning with rate-distortion theory." arXiv preprint arXiv:2201.02664 (2022).
-[2] McMahan, Brendan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera y Arcas. "Communication-efficient learning of deep networks from decentralized data." In Artificial intelligence and statistics, pp. 1273-1282. PMLR, 2017.
-[3] Thapa, Chandra, Pathum Chamikara Mahawaga Arachchige, Seyit Camtepe, and Lichao Sun. "Splitfed: When federated learning meets split learning." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 36, no. 8, pp. 8485-8493. 2022.
-[4] Cheng, Zhengxue, Heming Sun, Masaru Takeuchi, and Jiro Katto. "Learned image compression with discretized gaussian mixture likelihoods and attention modules." In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 7939-7948. 2020.
-[5] Ballé, Johannes, David Minnen, Saurabh Singh, Sung Jin Hwang, and Nick Johnston. "Variational image compression with a scale hyperprior." In International Conference on Learning Representations. 2018.
+1. Mitchell, Nicole, Johannes Ballé, Zachary Charles, and Jakub Konečný. "Optimizing the communication-accuracy trade-off in federated learning with rate-distortion theory." arXiv preprint arXiv:2201.02664 (2022).
+2. McMahan, Brendan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera y Arcas. "Communication-efficient learning of deep networks from decentralized data." In Artificial intelligence and statistics, pp. 1273-1282. PMLR, 2017.
+3. Thapa, Chandra, Pathum Chamikara Mahawaga Arachchige, Seyit Camtepe, and Lichao Sun. "Splitfed: When federated learning meets split learning." In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 36, no. 8, pp. 8485-8493. 2022.
+4. Cheng, Zhengxue, Heming Sun, Masaru Takeuchi, and Jiro Katto. "Learned image compression with discretized gaussian mixture likelihoods and attention modules." In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 7939-7948. 2020.
+5. Ballé, Johannes, David Minnen, Saurabh Singh, Sung Jin Hwang, and Nick Johnston. "Variational image compression with a scale hyperprior." In International Conference on Learning Representations. 2018.
+
