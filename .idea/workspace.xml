@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d7b301-cd30-41f1-81f2-723e21d97a76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Baseline_SplitFed/Baseline_fedavg_HAM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baseline_SplitFed/utils_splitfed_HAM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
