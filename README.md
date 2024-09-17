@@ -70,8 +70,8 @@ To generate the Figures in the paper, please go to the _Plotting_ folder.
 
 # Datasets
 Following are the two datasets used in the experiments.
-1. Blastocyst Dataset [[7](#reference-7)]
-2. HAM10K Dataset [[8](#reference-8)]
+1. Blastocyst Dataset [[7](#reference-7)].
+2. HAM10K Dataset [[8](#reference-8)].
 
 # Contact
 Please contact the corresponding authors of the paper for any inquiries regarding this project.
