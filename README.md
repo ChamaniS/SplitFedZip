@@ -18,8 +18,10 @@ SplitFedZip is the first rate-distortion based compression scheme desgined for s
 SplitFedZip was tested on two medical image segmentation datasets, which achieved significant communication bitrate reduction with minimal impact on global model accuracy.
 
 ![R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset.](images/FandFG_Blasto.JPG)
+**Figure 1:** R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset.
 
 ![R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.](images/FandFG_Ham.JPG)
+**Figure 2:** R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.
 
 # Features
 1. Learned Compression: SplitFedZip uses advanced codecs to compress feature maps and gradients at the split points.
