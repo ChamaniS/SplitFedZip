@@ -78,9 +78,9 @@ If you find this project useful in your research, please cite our paper:
 
 ```bibtex
 @article{Anonymous_2024,
-  title={SplitFedZip: Efficient Communication in Split-Federated Learning via Learned Compression},
+  title={SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning},
   author={Anonymous},
-  journal={Journal Name},
+  journal={Proceeding of XXX},
   year={2024}
 }
 ```
