@@ -67,8 +67,8 @@ To generate the Figures in the paper, please go to the _Plotting_ folder.
 
 # Datasets
 Following are the two datasets used in the experiments.
-1. Blastocyst Dataset
-2. HAM10K Dataset
+1. Blastocyst Dataset [[7](#reference-7)]
+2. HAM10K Dataset [[8](#reference-8)]
 
 # Contact
 Please contact the corresponding authors of the paper for any inquiries regarding this project.
@@ -99,5 +99,7 @@ If you find this project useful in your research, please cite our paper:
 5. Ballé, Johannes, David Minnen, Saurabh Singh, Sung Jin Hwang, and Nick Johnston. "Variational image compression with a scale hyperprior." In International Conference on Learning Representations. 2018.
 <a id="reference-6"></a>
 6. Cheng, Zhengxue, Heming Sun, Masaru Takeuchi, and Jiro Katto. "Learned image compression with discretized gaussian mixture likelihoods and attention modules." In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pp. 7939-7948. 2020.
-
-
+<a id="reference-7"></a>
+7. Lockhart, Lisette, Parvaneh Saeedi, Jason Au, and Jon Havelock. "Multi-label classification for automatic human blastocyst grading with severely imbalanced data." In 2019 IEEE 21st International Workshop on Multimedia Signal Processing (MMSP), pp. 1-6. IEEE, 2019.
+<a id="reference-8"></a>
+8. Tschandl, Philipp, Cliff Rosendahl, and Harald Kittler. "The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions." Scientific data 5, no. 1 (2018): 1-9.
