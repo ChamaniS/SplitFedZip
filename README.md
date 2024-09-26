@@ -27,7 +27,7 @@ Figure 1 and Figure 2 shows the R-D curves for the F and FG schemes with the Bla
 ![R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset.](images/FandFG_Blasto.PNG)
 **Figure 1:** R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset. Top row is for the F scheme, bottom row is for the FG scheme.
 
-![R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.](images/FandFG_Ham.PNG)
+![R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.](images/FandFG_HAM.PNG)
 **Figure 2:** R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset. Top row is for the F scheme, bottom row is for the FG scheme.
 
 # Features
