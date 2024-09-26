@@ -24,10 +24,10 @@ SplitFedZip is designed with 4 compression schemes as _NC scheme_ (No Compressio
 
 Figure 1 and Figure 2 shows the R-D curves for the F and FG schemes with the Blastocyst dataset and the HAM10K dataset. 
 
-![R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset.](images/FandFG_Blasto.JPG)
+![R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset.](images/FandFG_Blasto.png)
 **Figure 1:** R-D curves for (i) F and (ii) FG schemes with the Blastocyst dataset. Top row is for the F scheme, bottom row is for the FG scheme.
 
-![R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.](images/FandFG_Ham.JPG)
+![R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset.](images/FandFG_Ham.png)
 **Figure 2:** R-D curves for (i) F and (ii) FG schemes with the HAM10K dataset. Top row is for the F scheme, bottom row is for the FG scheme.
 
 # Features
