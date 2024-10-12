@@ -61,6 +61,10 @@ Fig.5 shows the CR variation with λ for the Blastocyst dataset. Fig.6 shows the
 ![CR vs. λ: HAM10K dataset.](images/CR_ham.PNG)
 **Figure 6:** CR vs. λ: HAM10K dataset.
 
+Following is a qualitative comparison with two samples of the two datasets.
+![Qualitative comparison of two samples with different λ.](images/Qualitative.PNG)
+**Figure 6:** Qualitative comparison of two samples with different λ.
+
 # Installation
 Clone the repository:
 ```
