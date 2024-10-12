@@ -63,7 +63,7 @@ Fig.5 shows the CR variation with λ for the Blastocyst dataset. Fig.6 shows the
 
 Following is a qualitative comparison with two samples of the two datasets.
 ![Qualitative comparison of two samples with different λ.](images/Qualitative.PNG)
-**Figure 6:** Qualitative comparison of two samples with different λ.
+**Figure 7:** Qualitative comparison of two samples with different λ.
 
 # Installation
 Clone the repository:
