@@ -47,7 +47,7 @@ We studied the MJI variation for the four compression schemes by calculating the
 ![MJI vs. λ for the four compression schemes: HAM10K dataset.](images/MJI_F_G_FG_HAM.PNG)
 **Figure 4:** MJI vs. λ for the four compression schemes: HAM10K dataset.
 
-We mark the calculated AUC of each curve in the legends. Since both the $x$-axis (λ) and the $y$-axis (MJI) are dimensionless, the AUC is also dimensionless and represents a numerical value of the area. AUC values for the Blastocyst dataset behave as $\text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}} > \text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}}$. AUC values for the HAM10K dataset behave as $\text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}} > \text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}}$. This AUC analysis aligns with the R-A curves: SplitFedZip's F, FG and G schemes outperform the NC scheme for the HAM10K dataset, while showing slightly lower performance for the Blastocyst dataset.
+We mark the calculated AUC of each curve in the legends. Since both the x-axis (λ) and the y-axis (MJI) are dimensionless, the AUC is also dimensionless and represents a numerical value of the area. AUC values for the Blastocyst dataset behave as $\text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}} > \text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}}$. AUC values for the HAM10K dataset behave as $\text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}} > \text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}}$. This AUC analysis aligns with the R-A curves: SplitFedZip's F, FG and G schemes outperform the NC scheme for the HAM10K dataset, while showing slightly lower performance for the Blastocyst dataset.
 
 
 Following is a Compression Ratio(CR) analysis for the compression schemes.
