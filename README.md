@@ -40,8 +40,12 @@ Following are some of the unique features of SplitFedZip.
 
 Following is a MJI variation analysis for the compression schemes.
 We studied the MJI variation for the four compression schemes by calculating the area under the curve (AUC) of the MJI curves. Fig. 3 is for the Blastocyst dataset and Fig. 4 is for the HAM10K dataset. We show the MJI variation separately for the AE (left graph in each figure) and the Cheng\_AT (right graph in each figure). AUC was calculated using the trapezoidal rule with the numpy.trapz package. 
-(images/MJI_F_G_FG_blasto.PNG)
-(images/MJI_F_G_FG_HAM.PNG)
+
+![MJI vs. λ for the four compression schemes: Blastocyst dataset.](images/MJI_F_G_FG_blasto.PNG)
+**Figure 1:** MJI vs. λ for the four compression schemes: Blastocyst dataset.
+
+![MJI vs. λ for the four compression schemes: HAM10K dataset.](images/MJI_F_G_FG_HAM.PNG)
+**Figure 1:** MJI vs. λ for the four compression schemes: HAM10K dataset.
 
 We mark the calculated AUC of each curve in the legends. Since both the $x$-axis ($\lambda$) and the $y$-axis (MJI) are dimensionless, the AUC is also dimensionless and represents a numerical value of the area. AUC values for the Blastocyst dataset behave as $\text{G}_{\text{AUC}}>\text{NC}_{\text{AUC}} > \text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}}$. AUC values for the HAM10K dataset behave as $\text{F}_{\text{AUC}}>\text{FG}_{\text{AUC}} > \text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}}$. This AUC analysis aligns with the R-A curves: SplitFedZip's F, FG and G schemes outperform the NC scheme for the HAM10K dataset, while showing slightly lower performance for the Blastocyst dataset.
 
