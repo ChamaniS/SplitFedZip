@@ -42,13 +42,23 @@ Following is a MJI variation analysis for the compression schemes.
 We studied the MJI variation for the four compression schemes by calculating the area under the curve (AUC) of the MJI curves. Fig. 3 is for the Blastocyst dataset and Fig. 4 is for the HAM10K dataset. We show the MJI variation separately for the AE (left graph in each figure) and the Cheng\_AT (right graph in each figure). AUC was calculated using the trapezoidal rule with the numpy.trapz package. 
 
 ![MJI vs. λ for the four compression schemes: Blastocyst dataset.](images/MJI_F_G_FG_blasto.PNG)
-**Figure 1:** MJI vs. λ for the four compression schemes: Blastocyst dataset.
+**Figure 3:** MJI vs. λ for the four compression schemes: Blastocyst dataset.
 
 ![MJI vs. λ for the four compression schemes: HAM10K dataset.](images/MJI_F_G_FG_HAM.PNG)
-**Figure 1:** MJI vs. λ for the four compression schemes: HAM10K dataset.
+**Figure 4:** MJI vs. λ for the four compression schemes: HAM10K dataset.
 
 We mark the calculated AUC of each curve in the legends. Since both the $x$-axis ($\lambda$) and the $y$-axis (MJI) are dimensionless, the AUC is also dimensionless and represents a numerical value of the area. AUC values for the Blastocyst dataset behave as $\text{G}_{\text{AUC}}>\text{NC}_{\text{AUC}} > \text{F}_{\text{AUC}} > \text{FG}_{\text{AUC}}$. AUC values for the HAM10K dataset behave as $\text{F}_{\text{AUC}}>\text{FG}_{\text{AUC}} > \text{G}_{\text{AUC}} > \text{NC}_{\text{AUC}}$. This AUC analysis aligns with the R-A curves: SplitFedZip's F, FG and G schemes outperform the NC scheme for the HAM10K dataset, while showing slightly lower performance for the Blastocyst dataset.
 
+
+Following is a Compression Ratio(CR) analysis for the compression schemes.
+
+Fig.5 shows the CR variation with $\lambda$ for the Blastocyst dataset. Fig.6 shows the same for the HAM10K dataset. We show the MJI variation separately for the F scheme (left graph in each figure) and the FG scheme (right graph in each figure). At lower $\lambda$, AE had a higher CR, while Cheng\_AT had a lower CR. In contrast, at higher $\lambda$, Cheng\_AT showed a higher CR, and AE showed a lower CR. The reasons for these behaviors could be due to the trade-offs between compression efficiency and the reconstruction quality (or the information fidelity) of the two codecs.  AEs perform well with lower $\lambda$ due to their design focus on aggressive compression. In contrast, Cheng\_AT performs better at higher $\lambda$ because it balances quality preservation and compression more effectively.
+
+![CR vs. λ: Blastocyst dataset.](images/CR_blasto.PNG)
+**Figure 5:** CR vs. λ: Blastocyst dataset.
+
+![CR vs. λ: HAM10K dataset.](images/CR_ham.PNG)
+**Figure 6:** CR vs. λ: HAM10K dataset.
 
 # Installation
 Clone the repository:
