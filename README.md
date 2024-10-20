@@ -1,7 +1,7 @@
 # SplitFedZip
 
 Split-Federated(splitFed) learning [[1](#reference-1)] is an innovative approach that combines the strengths of federated learning (FL) [[2](#reference-2)] and split learning (SL) [[3](#reference-3)].
-This repository is the Python implementation of the paper "_SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning_". 
+This repository is the Python implementation of the paper "_SplitFedZip: Learned Compression for Data Transfer Reduction in Split-Federated Learning_". 
 
 Table of Contents
 
@@ -107,7 +107,7 @@ If you find this project useful in your research, please cite our paper:
 
 ```bibtex
 @article{Anonymous_2024,
-  title={SplitFedZIP: Learned Compression for Efficient Communication in Split-Federated Learning},
+  title={SplitFedZip: Learned Compression for Data Transfer Reduction in Split-Federated Learning},
   author={Anonymous},
   journal={Proceeding of XXX},
   year={2024}
