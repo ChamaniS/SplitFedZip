@@ -108,9 +108,9 @@ If you find this project useful in your research, please cite our paper:
 ```bibtex
 @article{Anonymous_2024,
   title={SplitFedZip: Learned Compression for Data Transfer Reduction in Split-Federated Learning},
-  author={Anonymous},
-  journal={Proceeding of XXX},
-  year={2024}
+  author={Shiranthika, C., Hadizadeh, H., Saeedi, P. and Bajić, I.V.},
+  Conference={AAAI 2025 Workshop on Federated Learning for Unbounded and Intelligent Decentralization},
+  year={2025}
 }
 ```
 
