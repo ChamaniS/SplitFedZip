@@ -68,7 +68,7 @@ Following is a qualitative comparison with two samples of the two datasets.
 # Installation
 Clone the repository:
 ```
-git clone https://anonymous.4open.science/r/SplitFedZip.git
+git clone https://github.com/ChamaniS/SplitFedZip
 ```
 
 Navigate to SplitFedZip folder:
